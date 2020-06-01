@@ -1,0 +1,32 @@
+{
+  "name": "nextjs-google-cloud-functions",
+  "version": "0.1.0",
+  "description": "Deploy NextJS to Google Cloud Functions and go FULL Serverless",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "deploy": "gcloud functions deploy nextjs --entry-point=handler --allow-unauthenticated --trigger-http --runtime=nodejs10 --memory=128MB"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/daveteu/nextjs-google-cloud-functions.git"
+  },
+  "keywords": [
+    "nextjs",
+    "cloud-functions",
+    "serverless"
+  ],
+  "author": "Dave T",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daveteu/nextjs-google-cloud-functions/issues"
+  },
+  "homepage": "https://github.com/daveteu/nextjs-google-cloud-functions#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
