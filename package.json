@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "deploy": "gcloud functions deploy nextjs --entry-point=handler --allow-unauthenticated --trigger-http --runtime=nodejs10 --memory=128MB"
+    "deploy": "gcloud functions deploy nextjs --entry-point=handler --allow-unauthenticated --trigger-http --runtime=nodejs16 --memory=128MB"
   },
   "repository": {
     "type": "git",

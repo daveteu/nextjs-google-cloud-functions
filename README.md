@@ -1,5 +1,8 @@
 This git is a complementary to my post at https://medium.com/@daveteu/nextjs-with-google-cloud-functions-in-10-minutes-47f88e6ac27a
 
+**Dependencies**
+Node 16
+
 **Download the git and install**
 
     npm install
