@@ -2,9 +2,9 @@
   "name": "nextjs-google-cloud-functions",
   "version": "0.1.0",
   "description": "Deploy NextJS to Google Cloud Functions and go FULL Serverless",
-  "main": "server.js",
+  "main": "function.js",
   "scripts": {
-    "dev": "node server.js",
+    "dev": "node function.js",
     "build": "next build",
     "deploy": "gcloud functions deploy nextjs --entry-point=handler --allow-unauthenticated --trigger-http --runtime=nodejs16 --memory=128MB"
   },
